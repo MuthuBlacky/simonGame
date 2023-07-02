@@ -1,7 +1,7 @@
 //event listener for user choosen button
 var ptr = 0;
 var flag = 0;
-$(document).keypress(function(event){
+$(document).keydown(function(event){
    if(flag === 0){
     flag = 1;
     autoSound();
